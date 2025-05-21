@@ -9,7 +9,7 @@ import {
   PutRecordCommand,
   type PutRecordCommandOutput,
 } from '@aws-sdk/client-kinesis';
-import dotenv from 'dotenv';
+import * as dotenv from 'dotenv';
 
 // Define interfaces for type safety
 interface Metric {

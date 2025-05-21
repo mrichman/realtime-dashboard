@@ -2,7 +2,6 @@
   "name": "realtime-dashboard-scripts",
   "version": "1.0.0",
   "description": "Scripts for the realtime dashboard application",
-  "type": "module",
   "scripts": {
     "start-producer": "ts-node kinesisDataProducer.ts"
   },
@@ -11,6 +10,8 @@
     "dotenv": "^16.5.0"
   },
   "devDependencies": {
-    "@types/node": "^22.15.19"
+    "@types/node": "^22.15.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
